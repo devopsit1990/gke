@@ -7,3 +7,8 @@ variable "vpc_name" {
   type        = string
   description = "The name of the cluster (required)"
 }
+
+variable "Nodenetwork" {
+    type      = string
+    descriptiton = "Nodenetworkname"
+}
