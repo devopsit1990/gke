@@ -8,3 +8,7 @@ variable "vpc_name" {
   description = "vpcname"
 
 }
+
+variable "Nodenetwork" {
+  type = string 
+  Description = "Nodename"
