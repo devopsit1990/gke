@@ -19,6 +19,6 @@ resource "google_compute_subnetwork" "Node_network" {
     range_name    = "pod-ranges"
     ip_cidr_range = "192.168.64.0/22"
   }
-}
+
 
 
