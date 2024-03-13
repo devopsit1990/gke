@@ -12,3 +12,5 @@ variable "vpc_name" {
 variable "Nodenetwork" {
   type = string 
   Description = "Nodename"
+
+}
